@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins';
+}
+
+@layer components {
+  .input-primary {
+    @apply px-3 py-[10px] w-full text-base text-black bg-white border-2 border-[#ced4da] rounded-md
+  }
+}
